@@ -19,7 +19,7 @@ header
 	background: url(../img/header_bg.png) no-repeat 50% 50% / cover
 	margin: 0 auto
 	// overflow: hidden
-	
+
 .top-line
 	background: url(../img/header-brend-bg.jpg) repeat-x
 	height: 28px
@@ -59,7 +59,7 @@ header
 	width: 430px
 	transform: rotate(-2deg)
 	// height: 26px
-	
+
 	span
 		color: #000000
 		font-family: "NeueCyr-Medium"
@@ -75,26 +75,26 @@ header
 		margin: 0
 		margin-right: 10px
 		cursor: pointer
-		
+
 		&:last-child
 			// margin-left: 10px
 .lab_dashed
 	height: 35px
 	border-bottom: 2px dashed #000
 
-.checkbox 
+.checkbox
 	position: absolute
 	z-index: -1
 	opacity: 0
 	margin: 10px 0 0 20px
-	
 
-.checkbox + label 
+
+.checkbox + label
 	position: relative
 	padding: 0 0 0 60px
 	cursor: pointer
 
-.checkbox + label:before 
+.checkbox + label:before
 	content: ''
 	position: absolute
 	top: -21px
@@ -107,7 +107,7 @@ header
 	border-radius: 13px
 	transition: .2s
 
-.checkbox + label:after 
+.checkbox + label:after
 	content: ''
 	position: absolute
 	top: -18px
@@ -118,9 +118,143 @@ header
 	background-color: #ee2d27
 	transition: .2s
 
-.checkbox:checked + label:after 
+.checkbox:checked + label:after
 	left: 26px
 
+.section2
+	background: url(../img/asdff.png)  no-repeat center center/ cover
+	padding-bottom: 50px
+	.container
+		.super5
+			margin: 0 auto
+			max-width: 993px
+			width: 100%
+		.videos
+			display: flex
+			flex-wrap: wrap
+			justify-content: center
+			margin-top: -100px
+			.videos-item
+				max-width: 340px
+				width: 90%
+				margin: 10px 0px
+				margin-right: 45px
+				&:nth-child(3)
+					margin-right: 0px
+				&:nth-child(5)
+					margin-right: 0px
+				&-visible
+					cursor: pointer
+					position: relative
+					.playbtn
+						position: absolute
+						top: 50%
+						left: 50%
+						transform: translate(-50%, -50%)
+						width: 55px
+						height: 72px
+						transition: 0.3s
+					&:hover
+						.playbtn
+							width: 45px
+							height: 58px
+					p
+						color: #ffffff
+						font-family: "Helvetica Neue Cyr"
+						font-size: 22px
+						font-weight: 500
+						letter-spacing: 0.44px
+						text-align: center
+						display: block
+						// width: 90%
+						margin: 0px
+						padding: 0px
+		.supervipechka
+			display: flex
+			color: #ffffff
+			font-family: "Helvetica Neue Cyr"
+			font-size: 21px
+			font-weight: 500
+			line-height: 33px
+			margin-top: 70px
+			.left
+				width: 40%
+			.right
+				width: 60%
+				display: flex
+				align-items: center
+				flex-direction: column
+				.easygg
+					max-width: 452px
+					max-height: 97px
+					margin-top: 30px
+				img
+					max-width: 349px
+					max-height: 120px
+					margin-top: 45px
+				p
+					color: #ffffff
+					font-family: "Helvetica Neue Cyr"
+					font-size: 21px
+					font-weight: 500
+					line-height: 33px
+					margin-top: 30px
+				.list
+					display: flex
+					margin-top: 20px
+					.list-left
+						ul
+							li
+								display: flex
+								list-style-type: none
+								margin-bottom: 3px
+								img
+									margin-top: 0px
+									margin-right: 13px
+									max-width: 30px
+									max-height: 30px
+					.list-right
+						ul
+							li
+								display: flex
+								list-style-type: none
+								margin-bottom: 3px
+								img
+									margin-top: 0px
+									margin-right: 13px
+									max-width: 30px
+									max-height: 30px
+@media screen and (max-width: 1200px)
+	.videos-item
+		margin: 10px 10px!important
+	.section2 .container .supervipechka .left
+		width: 30%
+		img
+			max-width: 100%
+	.section2 .container .supervipechka .right
+		width: 70%
+@media screen and (max-width: 992px)
+	.section2 .container .supervipechka
+		flex-direction: column
+		align-items: center
+	.section2 .container .supervipechka .left
+		width: 100%
+		text-align: center
+	.section2 .container .supervipechka .right
+		width: 100%
+@media screen and (max-width: 530px)
+	.section2 .container .supervipechka .right .list
+		flex-direction: column
+	.section2 .container .supervipechka .right .list .list-left ul
+		margin-bottom: 0px
+	.section2 .container .supervipechka .right .easygg
+		width: 100%
+	.section2 .container .supervipechka .right img
+		width: 100%
+	.section2 .container .videos .videos-item-visible img
+		width: 100%
+	.section2 .container .videos
+		margin-top: 0px
 @media only screen and (min-width: 2000px)  and (max-width: 2550px)
 	.take
 		margin-top: 40%
@@ -158,7 +292,7 @@ header
 @media screen and (max-width: 440px)
 	.prod-top
 		img
-			max-width: 78%		
+			max-width: 78%
 @media screen and (max-width: 380px)
 	.take
 		// text-align: center
@@ -166,7 +300,7 @@ header
 		margin-top: 13%
 	.prod-top
 		img
-			max-width: 90%	
+			max-width: 90%
 @media screen and (max-width: 350px)
 	.take
 		// text-align: center
