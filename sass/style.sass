@@ -16,4 +16,137 @@ header
 	top: 10px
 	left: 20px
 
-	
+.section2
+	background: url(../img/asdff.png)  no-repeat center center/ cover
+	padding-bottom: 50px
+	.container
+		.super5
+			margin: 0 auto
+			max-width: 993px
+			width: 100%
+		.videos
+			display: flex
+			flex-wrap: wrap
+			justify-content: center
+			margin-top: -100px
+			.videos-item
+				max-width: 340px
+				width: 90%
+				margin: 10px 0px
+				margin-right: 45px
+				&:nth-child(3)
+					margin-right: 0px
+				&:nth-child(5)
+					margin-right: 0px
+				&-visible
+					cursor: pointer
+					position: relative
+					.playbtn
+						position: absolute
+						top: 50%
+						left: 50%
+						transform: translate(-50%, -50%)
+						width: 55px
+						height: 72px
+						transition: 0.3s
+					&:hover
+						.playbtn
+							width: 45px
+							height: 58px
+					p
+						color: #ffffff
+						font-family: "Helvetica Neue Cyr"
+						font-size: 22px
+						font-weight: 500
+						letter-spacing: 0.44px
+						text-align: center
+						display: block
+						// width: 90%
+						margin: 0px
+						padding: 0px
+		.supervipechka
+			display: flex
+			color: #ffffff
+			font-family: "Helvetica Neue Cyr"
+			font-size: 21px
+			font-weight: 500
+			line-height: 33px
+			margin-top: 70px
+			.left
+				width: 40%
+			.right
+				width: 60%
+				display: flex
+				align-items: center
+				flex-direction: column
+				.easygg
+					max-width: 452px
+					max-height: 97px
+					margin-top: 30px
+				img
+					max-width: 349px
+					max-height: 120px
+					margin-top: 45px
+				p
+					color: #ffffff
+					font-family: "Helvetica Neue Cyr"
+					font-size: 21px
+					font-weight: 500
+					line-height: 33px
+					margin-top: 30px
+				.list
+					display: flex
+					margin-top: 20px
+					.list-left
+						ul
+							li
+								display: flex
+								list-style-type: none
+								margin-bottom: 3px
+								img
+									margin-top: 0px
+									margin-right: 13px
+									max-width: 30px
+									max-height: 30px
+					.list-right
+						ul
+							li
+								display: flex
+								list-style-type: none
+								margin-bottom: 3px
+								img
+									margin-top: 0px
+									margin-right: 13px
+									max-width: 30px
+									max-height: 30px
+@media screen and (max-width: 1200px)
+	.videos-item
+		margin: 10px 10px!important
+	.section2 .container .supervipechka .left
+		width: 30%
+		img
+			max-width: 100%
+	.section2 .container .supervipechka .right
+		width: 70%
+@media screen and (max-width: 992px)
+	.section2 .container .supervipechka
+		flex-direction: column
+		align-items: center
+	.section2 .container .supervipechka .left
+		width: 100%
+		text-align: center
+	.section2 .container .supervipechka .right
+		width: 100%
+@media screen and (max-width: 530px)
+	.section2 .container .supervipechka .right .list
+		flex-direction: column
+	.section2 .container .supervipechka .right .list .list-left ul
+		margin-bottom: 0px
+	.section2 .container .supervipechka .right .easygg
+		width: 100%
+	.section2 .container .supervipechka .right img
+		width: 100%
+	.section2 .container .videos .videos-item-visible img
+		width: 100%
+	.section2 .container .videos
+		margin-top: 0px
