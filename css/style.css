@@ -119,7 +119,10 @@ header {
   .take {
     margin-top: 40%;
     font-size: 135px;
-    margin-bottom: 100px; } }
+    margin-bottom: 100px; }
+
+  img {
+    max-width: 100%; } }
 @media screen and (max-width: 992px) {
   .prod-top img {
     max-width: 100%; }
