@@ -4,22 +4,36 @@
 	src: url("../fonts/VeryBerryPro-Regular.otf") format("opentype")
 @font-face
 	font-family: 'NeueCyr-Bold'
-	src: url('../fonts/HelveticaNeueCyr-Bold') format('eot'), url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype')
+	src: url('../fonts/HelveticaNeueCyr-Bold.eot') format('eot'), url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype')
 	// font-weight: normal
 	// font-style: normal
 @font-face
 	font-family: 'NeueCyr-Medium'
-	src: url('../fonts/HelveticaNeueCyr-Medium') format('eot'), url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Medium.ttf') format('truetype')
+	src: url('../fonts/HelveticaNeueCyr-Medium.eot') format('eot'), url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Medium.ttf') format('truetype')
+	// font-weight: normal
+	// font-style: normal
+@font-face
+	font-family: 'NeueCyr-Light'
+	src: url('../fonts/HelveticaNeueCyr-Light.eot') format('eot'), url('../fonts/HelveticaNeueCyr-Light.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Light.ttf') format('truetype')
+	// font-weight: normal
+	// font-style: normal
+@font-face
+	font-family: 'NeueCyr-Roman'
+	src: url('../fonts/HelveticaNeueCyr-Roman.eot') format('eot'), url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype')
 	// font-weight: normal
 	// font-style: normal
 *
 	box-sizing: border-box
+body
+	overflow-x: hidden
 header
 	height: 100vh
 	background: url(../img/header_bg.png) no-repeat 50% 50% / cover
 	margin: 0 auto
 	// overflow: hidden
-
+.container
+	position: relative
+	
 .top-line
 	background: url(../img/header-brend-bg.jpg) repeat-x
 	height: 28px
@@ -120,10 +134,27 @@ header
 
 .checkbox:checked + label:after
 	left: 26px
-
+.skal
+	position: absolute
+	top: 50px
+	left: -30%
+.egg
+	position: absolute
+	bottom: -30%
+	left: -40%
+.apple
+	position: absolute
+	top: 0
+	right: -30%
+.venc
+	position: absolute
+	bottom: -16%
+	right: -75%
 .section2
-	background: url(../img/asdff.png)  no-repeat center center/ cover
+	background: url(../img/bgg.png)  no-repeat center center/ cover
 	padding-bottom: 50px
+	// position: relative
+	
 	.container
 		.super5
 			margin: 0 auto
@@ -144,13 +175,16 @@ header
 				&:nth-child(5)
 					margin-right: 0px
 				&-visible
-					cursor: pointer
+					// cursor: pointer
 					position: relative
+					margin-top: 40px
 					.playbtn
 						position: absolute
 						top: 50%
 						left: 50%
-						transform: translate(-50%, -50%)
+						cursor: pointer
+						
+						transform: translate(-50%, -85%)
 						width: 55px
 						height: 72px
 						transition: 0.3s
@@ -160,7 +194,7 @@ header
 							height: 58px
 					p
 						color: #ffffff
-						font-family: "Helvetica Neue Cyr"
+						font-family: "NeueCyr-Roman"
 						font-size: 22px
 						font-weight: 500
 						letter-spacing: 0.44px
@@ -169,87 +203,92 @@ header
 						// width: 90%
 						margin: 0px
 						padding: 0px
-		.supervipechka
-			display: flex
+						margin-top: 27px
+.third
+	background: url(../img/bg33.png)  no-repeat center center/ cover
+.supervipechka
+	display: flex
+	color: #ffffff
+	font-family: "NeueCyr-Roman"
+	font-size: 21px
+	font-weight: 500
+	line-height: 33px
+	// margin-top: 70px
+	padding-top: 70px
+	.left
+		width: 40%
+	.right
+		width: 60%
+		display: flex
+		align-items: center
+		flex-direction: column
+		.easygg
+			max-width: 452px
+			max-height: 97px
+			margin-top: 30px
+		img
+			max-width: 349px
+			max-height: 120px
+			margin-top: 45px
+		p
 			color: #ffffff
-			font-family: "Helvetica Neue Cyr"
+			font-family: "NeueCyr-Roman"
+
 			font-size: 21px
-			font-weight: 500
+			font-weight: 400
 			line-height: 33px
-			margin-top: 70px
-			.left
-				width: 40%
-			.right
-				width: 60%
-				display: flex
-				align-items: center
-				flex-direction: column
-				.easygg
-					max-width: 452px
-					max-height: 97px
-					margin-top: 30px
-				img
-					max-width: 349px
-					max-height: 120px
-					margin-top: 45px
-				p
-					color: #ffffff
-					font-family: "Helvetica Neue Cyr"
-					font-size: 21px
-					font-weight: 500
-					line-height: 33px
-					margin-top: 30px
-				.list
-					display: flex
-					margin-top: 20px
-					.list-left
-						ul
-							li
-								display: flex
-								list-style-type: none
-								margin-bottom: 3px
-								img
-									margin-top: 0px
-									margin-right: 13px
-									max-width: 30px
-									max-height: 30px
-					.list-right
-						ul
-							li
-								display: flex
-								list-style-type: none
-								margin-bottom: 3px
-								img
-									margin-top: 0px
-									margin-right: 13px
-									max-width: 30px
-									max-height: 30px
+			margin-top: 30px
+		.list
+			display: flex
+			margin-top: 20px
+			.list-left
+				ul
+					li
+						display: flex
+						list-style-type: none
+						margin-bottom: 3px
+						img
+							margin-top: 0px
+							margin-right: 13px
+							max-width: 30px
+							max-height: 30px
+			.list-right
+				ul
+					li
+						display: flex
+						list-style-type: none
+						margin-bottom: 3px
+						img
+							margin-top: 0px
+							margin-right: 13px
+							max-width: 30px
+							max-height: 30px
 @media screen and (max-width: 1200px)
 	.videos-item
 		margin: 10px 10px!important
-	.section2 .container .supervipechka .left
+	.supervipechka .left
 		width: 30%
 		img
 			max-width: 100%
-	.section2 .container .supervipechka .right
+	.supervipechka .right
 		width: 70%
 @media screen and (max-width: 992px)
-	.section2 .container .supervipechka
+	.supervipechka
 		flex-direction: column
 		align-items: center
-	.section2 .container .supervipechka .left
+	.supervipechka .left
 		width: 100%
 		text-align: center
-	.section2 .container .supervipechka .right
+	.supervipechka .right
 		width: 100%
 @media screen and (max-width: 530px)
-	.section2 .container .supervipechka .right .list
+	.supervipechka .right .list
 		flex-direction: column
-	.section2 .container .supervipechka .right .list .list-left ul
+	.supervipechka .right .list .list-left ul
 		margin-bottom: 0px
-	.section2 .container .supervipechka .right .easygg
+	.supervipechka .right .easygg
 		width: 100%
-	.section2 .container .supervipechka .right img
+	.supervipechka .right img
 		width: 100%
 	.section2 .container .videos .videos-item-visible img
 		width: 100%
