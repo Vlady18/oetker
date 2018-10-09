@@ -162,21 +162,23 @@ header
 	left: 26px
 .skal
 	position: absolute
-	top: 50px
-	left: -30%
+	top: -270px
+	left: -25%
+	img
+		max-width: 70%
 .egg
 	position: absolute
-	bottom: -30%
+	bottom: -290px
 	left: -40%
 .apple
 	position: absolute
-	top: 0
-	right: -30%
+	top: -290px
+	right: -40%
 	img
-		max-width: 50%
+		max-width: 75%
 .venc
 	position: absolute
-	bottom: -16%
+	bottom: -220px
 	right: -75%
 .section2
 	background: url(../img/fon1.jpg)  no-repeat center center/ cover
@@ -184,17 +186,21 @@ header
 	height: auto
 	// min-height: 1500px
 	overflow-y: hidden
+	padding-top: 400px
+	position: relative
 
 	// position: relative
-
+	.super5
+		margin: 0 auto
+		position: absolute
+		max-width: 100%
+		display: block
+		left: 50%
+		top: 0px
+		transform: translateX(-50%)
+		text-align: center
 	.container
-		.super5
-			margin: 0 auto
-			
-			width: 250px
-			display: block
-			
-			text-align: center
+		
 			
 		.videos
 			display: flex
@@ -206,11 +212,13 @@ header
 				width: 90%
 				margin: 10px 0px
 				margin-right: 45px
+
 				&:nth-child(3)
 					margin-right: 0px
 				&:nth-child(5)
 					margin-right: 0px
 				&-visible
+					
 					// cursor: pointer
 					position: relative
 					margin-top: 40px
@@ -239,8 +247,10 @@ header
 						// width: 90%
 						margin: 0px
 						padding: 0px
-						margin-top: 27px
-
+						margin-top: 18px
+.shadows
+	display: block
+	box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5)
 .videos-item-hidden
 	// overflow-y: visible
 	position: absolute

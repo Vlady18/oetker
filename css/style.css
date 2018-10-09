@@ -151,35 +151,44 @@ header {
 
 .skal {
   position: absolute;
-  top: 50px;
-  left: -30%; }
+  top: -270px;
+  left: -25%; }
+  .skal img {
+    max-width: 70%; }
 
 .egg {
   position: absolute;
-  bottom: -30%;
+  bottom: -290px;
   left: -40%; }
 
 .apple {
   position: absolute;
-  top: 0;
-  right: -30%; }
+  top: -290px;
+  right: -40%; }
   .apple img {
-    max-width: 50%; }
+    max-width: 75%; }
 
 .venc {
   position: absolute;
-  bottom: -16%;
+  bottom: -220px;
   right: -75%; }
 
 .section2 {
   background: url(../img/fon1.jpg) no-repeat center center/cover;
   padding-bottom: 50px;
   height: auto;
-  overflow-y: hidden; }
-  .section2 .container .super5 {
+  overflow-y: hidden;
+  padding-top: 400px;
+  position: relative; }
+  .section2 .super5 {
     margin: 0 auto;
-    width: 250px;
+    position: absolute;
+    max-width: 100%;
     display: block;
+    left: 50%;
+    top: 0px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
     text-align: center; }
   .section2 .container .videos {
     display: -webkit-box;
@@ -227,7 +236,12 @@ header {
           display: block;
           margin: 0px;
           padding: 0px;
-          margin-top: 27px; }
+          margin-top: 18px; }
+
+.shadows {
+  display: block;
+  -webkit-box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5);
+          box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5); }
 
 .videos-item-hidden {
   position: absolute;
