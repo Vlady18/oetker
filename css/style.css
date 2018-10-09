@@ -163,6 +163,8 @@ header {
   position: absolute;
   top: 0;
   right: -30%; }
+  .apple img {
+    max-width: 50%; }
 
 .venc {
   position: absolute;
@@ -176,8 +178,9 @@ header {
   overflow-y: hidden; }
   .section2 .container .super5 {
     margin: 0 auto;
-    max-width: 993px;
-    width: 100%; }
+    max-width: 50%;
+    display: block;
+    text-align: center; }
   .section2 .container .videos {
     display: -webkit-box;
     display: -ms-flexbox;
