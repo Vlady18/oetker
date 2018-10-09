@@ -439,4 +439,6 @@ header {
   font-family: "NeueCyr-Medium";
   margin-bottom: 15px; }
 
-/*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 1400px) {
+  .take {
+    margin-top: 30%; } }
