@@ -200,6 +200,13 @@ header {
       .section2 .container .videos .videos-item-visible {
         position: relative;
         margin-top: 40px; }
+        .section2 .container .videos .videos-item-visible:hover img:nth-child(1) {
+          -webkit-box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+                  box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+          -webkit-transform: scale(1.1);
+                  transform: scale(1.1);
+          -webkit-transition: 0.3s;
+          transition: 0.3s; }
         .section2 .container .videos .videos-item-visible .playbtn {
           position: absolute;
           top: 50%;
@@ -211,9 +218,6 @@ header {
           height: 72px;
           -webkit-transition: 0.3s;
           transition: 0.3s; }
-        .section2 .container .videos .videos-item-visible:hover .playbtn {
-          width: 45px;
-          height: 58px; }
         .section2 .container .videos .videos-item-visible p {
           color: #ffffff;
           font-family: "NeueCyr-Roman";
