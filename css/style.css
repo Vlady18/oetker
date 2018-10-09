@@ -151,33 +151,49 @@ header {
 
 .skal {
   position: absolute;
-  top: 50px;
-  left: -30%; }
+  top: -230px;
+  left: -25%; }
+  .skal img {
+    max-width: 65%; }
 
 .egg {
   position: absolute;
-  bottom: -30%;
-  left: -40%; }
+  bottom: -230px;
+  left: -30%; }
+  .egg img {
+    max-width: 85%; }
 
 .apple {
   position: absolute;
-  top: 0;
-  right: -30%; }
+  top: -250px;
+  right: -40%; }
+  .apple img {
+    max-width: 75%; }
 
 .venc {
   position: absolute;
-  bottom: -16%;
+  bottom: -150px;
   right: -75%; }
+  .venc img {
+    max-width: 85%; }
 
 .section2 {
-  background: url(../img/bgg.png) no-repeat center center/cover;
+  background: url(../img/fon1.jpg) no-repeat center center/cover;
   padding-bottom: 50px;
   height: auto;
-  overflow-y: hidden; }
-  .section2 .container .super5 {
+  overflow-y: hidden;
+  padding-top: 350px;
+  position: relative; }
+  .section2 .super5 {
     margin: 0 auto;
-    max-width: 993px;
-    width: 100%; }
+    position: absolute;
+    max-width: 60%;
+    display: block;
+    left: 50%;
+    top: 0px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    text-align: center; }
   .section2 .container .videos {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -228,7 +244,12 @@ header {
           display: block;
           margin: 0px;
           padding: 0px;
-          margin-top: 27px; }
+          margin-top: 18px; }
+
+.shadows {
+  display: block;
+  -webkit-box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5);
+          box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5); }
 
 .videos-item-hidden {
   position: absolute;
@@ -273,6 +294,8 @@ header {
   padding-top: 70px; }
   .supervipechka .left {
     width: 40%; }
+    .supervipechka .left img {
+      max-width: 400px; }
   .supervipechka .right {
     width: 60%;
     display: -webkit-box;
@@ -376,6 +399,12 @@ header {
 
   .section2 .container .videos {
     margin-top: 0px; } }
+@media screen and (max-width: 1200px) {
+  .take {
+    margin-top: calc(50vh - 200px); } }
+@media screen and (max-width: 1000px) {
+  .take span {
+    font-size: 88px; } }
 @media screen and (max-width: 992px) {
   .prod-top img {
     max-width: 100%; }
@@ -434,3 +463,12 @@ header {
 .popup h4 {
   font-family: "NeueCyr-Medium";
   margin-bottom: 15px; }
+
+@media screen and (max-width: 992px) {
+  .supervipechka .left img {
+    max-width: 400px; } }
+@media screen and (max-width: 480px) {
+  .supervipechka .left img {
+    max-width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

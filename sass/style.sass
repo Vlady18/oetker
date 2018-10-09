@@ -162,34 +162,50 @@ header
 	left: 26px
 .skal
 	position: absolute
-	top: 50px
-	left: -30%
+	top: -230px
+	left: -25%
+	img
+		max-width: 65%
 .egg
 	position: absolute
-	bottom: -30%
-	left: -40%
+	bottom: -230px
+	left: -30%
+	img
+		max-width: 85%
 .apple
 	position: absolute
-	top: 0
-	right: -30%
+	top: -250px
+	right: -40%
+	img
+		max-width: 75%
 .venc
 	position: absolute
-	bottom: -16%
+	bottom: -150px
 	right: -75%
+	img
+		max-width: 85%
 .section2
-	background: url(../img/bgg.png)  no-repeat center center/ cover
+	background: url(../img/fon1.jpg)  no-repeat center center/ cover
 	padding-bottom: 50px
 	height: auto
 	// min-height: 1500px
 	overflow-y: hidden
+	padding-top: 350px
+	position: relative
 
 	// position: relative
-
+	.super5
+		margin: 0 auto
+		position: absolute
+		max-width: 60%
+		display: block
+		left: 50%
+		top: 0px
+		transform: translateX(-50%)
+		text-align: center
 	.container
-		.super5
-			margin: 0 auto
-			max-width: 993px
-			width: 100%
+		
+			
 		.videos
 			display: flex
 			flex-wrap: wrap
@@ -200,11 +216,13 @@ header
 				width: 90%
 				margin: 10px 0px
 				margin-right: 45px
+
 				&:nth-child(3)
 					margin-right: 0px
 				&:nth-child(5)
 					margin-right: 0px
 				&-visible
+					
 					// cursor: pointer
 					position: relative
 					margin-top: 40px
@@ -234,8 +252,10 @@ header
 						// width: 90%
 						margin: 0px
 						padding: 0px
-						margin-top: 27px
-
+						margin-top: 18px
+.shadows
+	display: block
+	box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5)
 .videos-item-hidden
 	// overflow-y: visible
 	position: absolute
@@ -279,6 +299,8 @@ header
 	padding-top: 70px
 	.left
 		width: 40%
+		img
+			max-width: 400px
 	.right
 		width: 60%
 		display: flex
@@ -369,6 +391,13 @@ header
 // 	.prod-top
 // 	img
 // 		max-width: 100%
+@media screen and (max-width: 1200px)
+	.take
+		margin-top: calc(50vh - 200px)
+@media screen and (max-width: 1000px)
+	.take
+		span
+			font-size: 88px
 @media screen and (max-width: 992px)
 	.prod-top
 		img
@@ -432,3 +461,13 @@ header
 // @media screen and (min-width: 1400px)
 // 	.take
 // 		margin-top: 30%
+@media screen and (max-width: 992px)
+	.supervipechka 
+		.left 
+			img
+				max-width: 400px 
+@media screen and (max-width: 480px)
+	.supervipechka 
+		.left 
+			img
+				max-width: 100%
