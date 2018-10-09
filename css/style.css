@@ -75,6 +75,8 @@ header {
   font-weight: 400;
   line-height: 70px;
   letter-spacing: 0.88px; }
+  .take span {
+    font-size: 118px; }
 
 .prod-top img {
   max-width: 94%; }
