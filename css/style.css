@@ -290,6 +290,8 @@ header {
   padding-top: 70px; }
   .supervipechka .left {
     width: 40%; }
+    .supervipechka .left img {
+      max-width: 400px; }
   .supervipechka .right {
     width: 60%;
     display: -webkit-box;
@@ -457,5 +459,12 @@ header {
 .popup h4 {
   font-family: "NeueCyr-Medium";
   margin-bottom: 15px; }
+
+@media screen and (max-width: 992px) {
+  .supervipechka .left img {
+    max-width: 400px; } }
+@media screen and (max-width: 480px) {
+  .supervipechka .left img {
+    max-width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
