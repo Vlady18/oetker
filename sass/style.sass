@@ -22,9 +22,20 @@
 	src: url('../fonts/HelveticaNeueCyr-Roman.eot') format('eot'), url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'), url('../fonts/HelveticaNeueCyr-Roman.ttf') format('truetype')
 	// font-weight: normal
 	// font-style: normal
+#overlay
+	width: 100%
+	height: 100%
+	background-color: black
+	opacity: 0.6
+	position: fixed
+	z-index: 9
+	display: none
+	transition: 0.3s
 *
 	box-sizing: border-box
-body
+// body
+// 	overflow-x: hidden
+section
 	overflow-x: hidden
 header
 	height: 100vh
@@ -35,19 +46,31 @@ header
 	position: relative
 	
 .top-line
-	background: url(../img/header-brend-bg.jpg) repeat-x
-	height: 28px
+	// background: url(../img/header-brend-bg.jpg) repeat-x
+	// height: 28px
+	// z-index: 9999
+	// position: relative
+	content: ''
+	width: 100%
+	position: absolute
 	z-index: 9999
-	position: relative
+	left: 0
+	top: 0.2rem
+	height: 0.4rem
+	border-top: 0.15rem solid #fff
+	border-bottom: 0.15rem solid #fff
+	background: #24328b
+	box-shadow: 0 0 0 0.2rem #e30a17
 .my-cont
 	position: relative
 .logo-brand
 	position: absolute
-	top: 10px
+	top: -2px
 	left: 20px
 	a
 		img
 			max-width: 100%
+			width: 100px
 
 .take
 	text-align: center
@@ -153,6 +176,10 @@ header
 .section2
 	background: url(../img/bgg.png)  no-repeat center center/ cover
 	padding-bottom: 50px
+	height: auto
+	// min-height: 1500px
+	overflow-y: hidden
+
 	// position: relative
 	
 	.container
@@ -204,6 +231,37 @@ header
 						margin: 0px
 						padding: 0px
 						margin-top: 27px
+
+.videos-item-hidden
+	// overflow-y: visible
+	position: absolute
+	display: none
+	z-index: 99
+	top: 30%
+	left: 50%
+	transform: translate(-50%, -50px)
+	width: 100%
+	// height: 100px
+	// max-width: 960px
+	text-align: center
+	margin: 0 auto
+	padding: 20px
+	padding-top: 40px
+	padding-bottom: 40px
+	background: #fff
+	h4
+		text-align: left
+		
+	iframe
+		z-index: 999
+	.video
+		min-height: 415px
+		height: 100%
+		// width: 100%
+.detail
+	margin-top: 20px
+	img
+		max-width: 100%
 .third
 	background: url(../img/bg33.png)  no-repeat center center/ cover
 .supervipechka
@@ -263,6 +321,11 @@ header
 							margin-right: 13px
 							max-width: 30px
 							max-height: 30px
+
+
+
+
+
 @media screen and (max-width: 1200px)
 	.videos-item
 		margin: 10px 10px!important
@@ -317,6 +380,8 @@ header
 		font-size: 52px
 		margin-bottom: 0
 @media screen and (max-width: 576px)
+	.videos-item-hidden
+		width: 90%
 	.take
 		text-align: center
 		margin-bottom: 0%
@@ -324,6 +389,15 @@ header
 		img
 			max-width: 64%
 @media screen and (max-width: 485px)
+	.skal
+		position: absolute
+		top: 50px
+		left: -87%
+
+	.apple
+		position: absolute
+		top: 0
+		right: -87%
 	.changes
 		width: 100%
 		span
@@ -345,3 +419,9 @@ header
 		// text-align: center
 		// margin-bottom: 5%
 		margin-top: 25%
+.dis_vis
+	display: block
+.popup
+	h4
+		font-family: "NeueCyr-Medium"
+		margin-bottom: 15px
