@@ -179,7 +179,7 @@ header {
     max-width: 50%; }
 
 .section2 {
-  background: url(../img/fon1.jpg) repeat-y center center/cover;
+  background: url(../img/fon1.jpg) no-repeat center center/cover;
   padding-bottom: 50px;
   height: auto;
   overflow-y: hidden;
@@ -666,5 +666,9 @@ header {
 @media screen and (max-width: 330px) {
   .myrow {
     padding-top: 80%; } }
+@media screen and (max-width: 578px) {
+  .section2 {
+    background: url(../img/bg2mob.jpg);
+    background-size: 100% 50%; } }
 
 /*# sourceMappingURL=style.css.map */
