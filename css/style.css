@@ -179,7 +179,7 @@ header {
     max-width: 50%; }
 
 .section2 {
-  background: url(../img/fon1.jpg) no-repeat center center/cover;
+  background: url(../img/fon1.jpg) repeat-y center center/cover;
   padding-bottom: 50px;
   height: auto;
   overflow-y: hidden;
