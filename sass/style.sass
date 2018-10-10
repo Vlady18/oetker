@@ -216,43 +216,50 @@ header
 				width: 90%
 				margin: 10px 0px
 				margin-right: 45px
-
+				position: relative
+				
 				&:nth-child(3)
 					margin-right: 0px
 				&:nth-child(5)
 					margin-right: 0px
 				&-visible
-					
 					// cursor: pointer
 					position: relative
 					margin-top: 40px
+					transition: all 0.3s
 					&:hover
-						img:nth-child(1)
-							box-shadow: 0 0 32px rgba(0,0,0,.5)
-							transform: scale(1.1)
-							transition: 0.3s
+						// img:nth-child(1)
+						display: block
+						
+						box-shadow: 0 0 32px rgba(0,0,0,.5)
+						transform: scale(1.1)
+						transition: all 0.3s
 					.playbtn
 						position: absolute
 						top: 50%
 						left: 50%
 						cursor: pointer
 
-						transform: translate(-50%, -85%)
+						transform: translate(-50%, -50%)
 						width: 55px
 						height: 72px
 						transition: 0.3s
-					p
-						color: #ffffff
-						font-family: "NeueCyr-Roman"
-						font-size: 22px
-						font-weight: 500
-						letter-spacing: 0.44px
-						text-align: center
-						display: block
-						// width: 90%
-						margin: 0px
-						padding: 0px
-						margin-top: 18px
+				p
+					color: #ffffff
+					font-family: "NeueCyr-Roman"
+					font-size: 22px
+					font-weight: 500
+					letter-spacing: 0.44px
+					text-align: center
+					display: block
+					// width: 90%
+					position: absolute
+					left: 50%
+					transform: translateX(-50%)
+					z-index: 9999
+					margin: 0px
+					padding: 0px
+					margin-top: 18px
 .shadows
 	display: block
 	box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5)
