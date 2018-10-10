@@ -259,7 +259,7 @@ header
 					position: absolute
 					left: 50%
 					transform: translateX(-50%)
-					z-index: 9999
+					// z-index: 99
 					margin: 0px
 					padding: 0px
 					margin-top: 12px
@@ -267,11 +267,12 @@ header
 	display: block
 	box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5)
 .videos-item-hidden
-	// overflow-y: visible
+	overflow: auto
 	position: absolute
+	// position: fixed
 	display: none
 	z-index: 99
-	top: 30%
+	top: 10%
 	left: 50%
 	transform: translate(-50%, -50px)
 	width: 100%
@@ -465,6 +466,7 @@ header
 .dis_vis
 	display: block
 .popup
+	// overflow-y: auto
 	h4
 		font-family: "NeueCyr-Medium"
 		margin-bottom: 15px

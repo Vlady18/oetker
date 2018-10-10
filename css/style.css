@@ -250,7 +250,6 @@ header {
         left: 50%;
         -webkit-transform: translateX(-50%);
                 transform: translateX(-50%);
-        z-index: 9999;
         margin: 0px;
         padding: 0px;
         margin-top: 12px; }
@@ -261,10 +260,11 @@ header {
           box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5); }
 
 .videos-item-hidden {
+  overflow: auto;
   position: absolute;
   display: none;
   z-index: 99;
-  top: 30%;
+  top: 10%;
   left: 50%;
   -webkit-transform: translate(-50%, -50px);
           transform: translate(-50%, -50px);

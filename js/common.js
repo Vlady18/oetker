@@ -2,9 +2,10 @@ $(function(){
 $('.playbtn_fir').click(function (e){
 	var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
-	  var relativeY = (e.pageY) + 'px';
+	  var relativeY = (e.pageY ) + 'px';
 	  $('.videos-item-hidden-fir').css('top', relativeY);
 	$('.videos-item-hidden-fir').addClass('dis_vis');
+	$('body').css('overflow', 'hidden');
 	$('#overlay').css('display', 'block');
 });
 $('.playbtn_sec').click(function (e){
@@ -42,5 +43,6 @@ $('.playbtn_fiv').click(function (e){
 $('#overlay').click(function(){
 	$(this).css('display', 'none');
 	$('.videos-item-hidden').removeClass('dis_vis');
+	$('body').css('overflow', 'auto');
 });
 })
