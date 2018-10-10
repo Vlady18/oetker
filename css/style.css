@@ -477,10 +477,6 @@ header {
   .checkbox + label {
     padding: 0 0 0 41px; } }
 @media screen and (max-width: 490px) {
-  .changes label {
-    font-size: 13px;
-    margin: 0; }
-
   .checkbox + label:before {
     width: 40px;
     height: 23px;
@@ -493,35 +489,34 @@ header {
 
   .checkbox:checked + label:after {
     left: 19px; } }
-@media screen and (max-width: 390px) {
-  .checkbox:checked + label:after {
-    left: 13px; }
-
-  .changes {
-    width: 113% !important; }
-    .changes label {
-      font-size: 11px; }
-
-  .checkbox + label:before {
-    width: 31px;
-    height: 19px;
-    top: -13px; }
-
-  .checkbox + label:after {
-    width: 15px;
-    height: 15px;
-    top: -11px; } }
 @media screen and (max-width: 576px) {
+  .container {
+    height: 100%; }
+
+  .myrow {
+    height: 100% !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+
   .videos-item-hidden {
     width: 80%; }
 
+  .product {
+    text-align: center; }
+
+  .changes {
+    margin: 0 auto;
+    margin-bottom: 30px; }
+
   .take {
-    text-align: left;
     margin-bottom: 0%;
-    margin-top: 30%; }
+    margin-top: 30%;
+    text-align: center; }
 
   .prod-top img {
-    max-width: 100%; }
+    max-width: 70%; }
 
   .changes {
     height: auto; } }
@@ -551,7 +546,6 @@ header {
       display: block; } }
 @media screen and (max-width: 440px) {
   .take {
-    text-align: left;
     margin-bottom: 0%;
     margin-top: 50%;
     font-size: 39px; }
@@ -565,7 +559,12 @@ header {
     padding-top: 100px; }
 
   .myrow {
-    padding-top: 72%; } }
+    padding-top: 72%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; } }
 @media screen and (max-width: 380px) {
   .take {
     margin-top: 58%; }
