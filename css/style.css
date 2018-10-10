@@ -155,7 +155,7 @@ header {
   top: -200px;
   left: -35%; }
   .skal img {
-    max-width: 50%; }
+    max-width: 40%; }
 
 .egg {
   position: absolute;
@@ -470,6 +470,44 @@ header {
     padding-top: 320px; }
     .section2 .super5 {
       max-width: 100%; } }
+@media screen and (max-width: 580px) {
+  .changes span {
+    display: block; } }
+@media screen and (max-width: 430px) {
+  .checkbox + label {
+    padding: 0 0 0 41px; } }
+@media screen and (max-width: 490px) {
+  .changes label {
+    font-size: 13px;
+    margin: 0; }
+
+  .checkbox + label:before {
+    width: 40px;
+    height: 23px;
+    top: -15px; }
+
+  .checkbox + label:after {
+    width: 17px;
+    height: 17px;
+    top: -12px; }
+
+  .checkbox:checked + label:after {
+    left: 19px; } }
+@media screen and (max-width: 390px) {
+  .changes {
+    width: 113% !important; }
+    .changes label {
+      font-size: 11px; }
+
+  .checkbox + label:before {
+    width: 31px;
+    height: 19px;
+    top: -13px; }
+
+  .checkbox + label:after {
+    width: 15px;
+    height: 15px;
+    top: -11px; } }
 @media screen and (max-width: 576px) {
   .videos-item-hidden {
     width: 80%; }
@@ -483,7 +521,6 @@ header {
     max-width: 100%; }
 
   .changes {
-    width: 215px;
     height: auto; } }
 @media screen and (max-width: 530px) {
   .section2 {
@@ -548,5 +585,33 @@ header {
 @media screen and (max-width: 480px) {
   .supervipechka .left img {
     max-width: 100%; } }
+@media screen and (min-width: 2400px) {
+  .skal {
+    position: absolute;
+    top: -250px;
+    left: -95%; }
+    .skal img {
+      max-width: 100%; }
+
+  .egg {
+    position: absolute;
+    bottom: -240px;
+    left: -40%; }
+    .egg img {
+      max-width: 100%; }
+
+  .apple {
+    position: absolute;
+    top: -200px;
+    right: -65%; }
+    .apple img {
+      max-width: 100%; }
+
+  .venc {
+    position: absolute;
+    bottom: -650px;
+    right: -78%; }
+    .venc img {
+      max-width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
