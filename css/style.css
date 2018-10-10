@@ -445,8 +445,7 @@ header {
         -ms-flex-align: center;
             align-items: center;
     -ms-flex-item-align: center;
-        align-self: center;
-    padding-top: 40%; }
+        align-self: center; }
 
   .take {
     margin-top: 0 !important; }
