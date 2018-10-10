@@ -207,8 +207,8 @@ header
 		transform: translateX(-50%)
 		text-align: center
 	.container
-		
-			
+
+
 		.videos
 			display: flex
 			flex-wrap: wrap
@@ -220,7 +220,7 @@ header
 				margin: 10px 0px
 				margin-right: 45px
 				position: relative
-				
+
 				&:nth-child(3)
 					margin-right: 0px
 				&:nth-child(5)
@@ -233,7 +233,7 @@ header
 					&:hover
 						// img:nth-child(1)
 						display: block
-						
+
 						box-shadow: 0 0 32px rgba(0,0,0,.5)
 						transform: scale(1.1)
 						transition: all 0.3s
@@ -271,9 +271,10 @@ header
 	box-shadow: 0 28px 37px rgba(14, 3, 0, 0.5)
 .videos-item-hidden
 	overflow: auto
-	position: absolute
-	// position: fixed
+	// position: absolute
+	position: fixed
 	display: none
+	height: 90vh
 	z-index: 99
 	top: 10%
 	left: 50%
@@ -316,7 +317,7 @@ header
 		img
 			max-width: 400px
 			// display: block
-			
+
 			// box-shadow: 0 0 32px rgba(0,0,0,.5)
 
 	.right
@@ -529,12 +530,12 @@ header
 // 	.take
 // 		margin-top: 30%
 @media screen and (max-width: 992px)
-	.supervipechka 
-		.left 
+	.supervipechka
+		.left
 			img
-				max-width: 400px 
+				max-width: 400px
 @media screen and (max-width: 480px)
-	.supervipechka 
-		.left 
+	.supervipechka
+		.left
 			img
 				max-width: 100%

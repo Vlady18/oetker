@@ -262,8 +262,9 @@ header {
 
 .videos-item-hidden {
   overflow: auto;
-  position: absolute;
+  position: fixed;
   display: none;
+  height: 90vh;
   z-index: 99;
   top: 10%;
   left: 50%;
