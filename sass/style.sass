@@ -437,7 +437,7 @@ header
 		flex-direction: row-reverse
 		align-items: center
 		align-self: center
-		padding-top: 40%
+		padding-top: 33%
 	.take
 		margin-top: 0!important
 	header
@@ -455,10 +455,34 @@ header
 		padding-top: 320px
 		.super5
 			max-width: 100%
+			// -----------------------------
+	.checkbox + label
+		padding: 0 0 0 45px
+	.lab_dashed
+		height: 23px
+	.changes 
+		height: 40px
+		margin-top: -10px
+		label
+			line-height: 27px
+			font-size: 14px
+			margin-right: 0
+	.changes 
+		width: 310px
+		span
+			font-size: 16px
+	.checkbox + label:before
+		width: 38px
+		height: 20px
+		top: -11px
+	.checkbox + label:after
+		width: 15px
+		height: 15px
+		top: -8px
 @media screen and (max-width: 580px)
 	.changes
 		span
-			display: block
+			// display: block
 @media screen and (max-width: 430px)
 	.checkbox + label
 		padding: 0 0 0 41px
@@ -500,10 +524,10 @@ header
 		display: none
 	.container
 		height: 100%
-	.myrow
-		height: 100%!important
-		flex-direction: column-reverse
-		padding-top: 0!important
+	// .myrow
+	// 	height: 100%!important
+	// 	flex-direction: column-reverse
+	// 	padding-top: 0!important
 	.videos-item-hidden
 		width: 80%
 	.product
@@ -517,10 +541,16 @@ header
 		text-align: center
 	.prod-top
 		img
-			max-width: 70%
+			max-width: 50%
 	.changes
 		// width: 215px
 		height: auto
+	.changes 
+		span
+			display: none
+
+
+
 @media screen and (max-width: 530px)
 	.section2
 		padding-top: 150px
@@ -539,9 +569,9 @@ header
 		top: 0
 		right: -87%
 	.changes
-		width: 100%
+		// width: 100%
 		span
-			display: block
+			// display: block
 @media screen and (max-width: 440px)
 	.take
 		// text-align: left
@@ -618,3 +648,21 @@ header
 		right: -78%
 		img
 			max-width: 100%
+@media screen and (max-width: 515px)
+	.prod-top 
+		img
+			max-width: 63%
+@media screen and (max-width: 475px)
+	.prod-top 
+		img
+			max-width: 72%
+@media screen and (max-width: 440px)
+	.prod-top 
+		img
+			max-width: 82%
+@media screen and (max-width: 380px)
+	.prod-top 
+		img
+			max-width: 100%
+	.changes
+		width: 300px
