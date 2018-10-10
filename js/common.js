@@ -1,5 +1,5 @@
 $(function(){
-$('.playbtn_fir').click(function (e){
+$('.videos-item-visible').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY ) + 'px';
@@ -9,7 +9,7 @@ $('.playbtn_fir').click(function (e){
 	$('#overlay').css('display', 'block');
 	// $('.videos-item-hidden-fir').css('overflow-y', 'scroll');
 });
-$('.playbtn_sec').click(function (e){
+$('.videos-item-visible').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
@@ -18,7 +18,7 @@ $('.playbtn_sec').click(function (e){
 	$('#overlay').css('display', 'block');
 	$('body').css('overflow', 'hidden');
 });
-$('.playbtn_thi').click(function (e){
+$('.videos-item-visible').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
@@ -27,7 +27,7 @@ $('.playbtn_thi').click(function (e){
 	$('#overlay').css('display', 'block');
 	$('body').css('overflow', 'hidden');
 });
-$('.playbtn_fou').click(function (e){
+$('.videos-item-visible').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
@@ -36,7 +36,7 @@ $('.playbtn_fou').click(function (e){
 	$('#overlay').css('display', 'block');
 	$('body').css('overflow', 'hidden');
 });
-$('.playbtn_fiv').click(function (e){
+$('.videos-item-visible').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
