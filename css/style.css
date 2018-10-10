@@ -431,7 +431,7 @@ header {
     margin-bottom: 0; } }
 @media screen and (max-width: 576px) {
   .videos-item-hidden {
-    width: 90%; }
+    width: 80%; }
 
   .take {
     text-align: left;
@@ -462,13 +462,13 @@ header {
   .take {
     text-align: left;
     margin-bottom: 0%;
-    margin-top: 35%; }
+    margin-top: 50%; }
 
   .prod-top img {
     max-width: 52%; } }
 @media screen and (max-width: 380px) {
   .take {
-    margin-top: 60%; }
+    margin-top: 58%; }
 
   .prod-top img {
     max-width: 60%; } }
