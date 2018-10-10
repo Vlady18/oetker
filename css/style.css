@@ -152,29 +152,29 @@ header {
 
 .skal {
   position: absolute;
-  top: -230px;
+  top: -200px;
   left: -35%; }
   .skal img {
-    max-width: 55%; }
+    max-width: 50%; }
 
 .egg {
   position: absolute;
   bottom: -140px;
-  left: -27%; }
+  left: -30%; }
   .egg img {
-    max-width: 65%; }
+    max-width: 50%; }
 
 .apple {
   position: absolute;
-  top: -250px;
-  right: -55%; }
+  top: -200px;
+  right: -65%; }
   .apple img {
-    max-width: 75%; }
+    max-width: 50%; }
 
 .venc {
   position: absolute;
   bottom: -200px;
-  right: -68%; }
+  right: -78%; }
   .venc img {
     max-width: 50%; }
 
@@ -183,12 +183,12 @@ header {
   padding-bottom: 50px;
   height: auto;
   overflow-y: hidden;
-  padding-top: 350px;
+  padding-top: 300px;
   position: relative; }
   .section2 .super5 {
     margin: 0 auto;
     position: absolute;
-    max-width: 80%;
+    max-width: 50%;
     display: block;
     left: 50%;
     top: 0px;
