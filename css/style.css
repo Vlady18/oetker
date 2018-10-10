@@ -621,9 +621,9 @@ header {
   .skal {
     position: absolute;
     top: -250px;
-    left: -95%; }
+    left: -85%; }
     .skal img {
-      max-width: 100%; }
+      max-width: 90%; }
 
   .egg {
     position: absolute;
