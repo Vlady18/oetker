@@ -445,7 +445,8 @@ header {
         -ms-flex-align: center;
             align-items: center;
     -ms-flex-item-align: center;
-        align-self: center; }
+        align-self: center;
+    padding-top: 40%; }
 
   .take {
     margin-top: 0 !important; }
@@ -489,6 +490,18 @@ header {
   .checkbox:checked + label:after {
     left: 19px; } }
 @media screen and (max-width: 576px) {
+  .apple {
+    display: none; }
+
+  .skal {
+    display: none; }
+
+  .venc {
+    display: none; }
+
+  .egg {
+    display: none; }
+
   .container {
     height: 100%; }
 
@@ -497,7 +510,8 @@ header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; }
+            flex-direction: column-reverse;
+    padding-top: 0 !important; }
 
   .videos-item-hidden {
     width: 80%; }
@@ -558,7 +572,7 @@ header {
     margin-top: 58%; }
 
   .prod-top img {
-    max-width: 100%; } }
+    max-width: 76%; } }
 @media screen and (max-width: 350px) {
   .take {
     margin-top: 60%; } }
