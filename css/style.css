@@ -494,6 +494,9 @@ header {
   .checkbox:checked + label:after {
     left: 19px; } }
 @media screen and (max-width: 390px) {
+  .checkbox:checked + label:after {
+    left: 13px; }
+
   .changes {
     width: 113% !important; }
     .changes label {
