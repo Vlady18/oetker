@@ -439,7 +439,7 @@ header {
     margin-top: 30%; }
 
   .prod-top img {
-    max-width: 52%; } }
+    max-width: 46%; } }
 @media screen and (max-width: 485px) {
   .changes {
     padding: 0; }
@@ -459,14 +459,19 @@ header {
     .changes span {
       display: block; } }
 @media screen and (max-width: 440px) {
-  .prod-top img {
-    max-width: 67%; } }
-@media screen and (max-width: 380px) {
   .take {
-    margin-top: 52%; }
+    text-align: left;
+    margin-bottom: 0%;
+    margin-top: 35%; }
 
   .prod-top img {
-    max-width: 65%; } }
+    max-width: 52%; } }
+@media screen and (max-width: 380px) {
+  .take {
+    margin-top: 60%; }
+
+  .prod-top img {
+    max-width: 60%; } }
 @media screen and (max-width: 350px) {
   .take {
     margin-top: 60%; } }
