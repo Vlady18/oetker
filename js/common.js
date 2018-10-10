@@ -5,7 +5,7 @@ $('.playbtn_fir').click(function (e){
 	  var relativeY = (e.pageY ) + 'px';
 	  $('.videos-item-hidden-fir').css('top', relativeY);
 	$('.videos-item-hidden-fir').addClass('dis_vis');
-	$('body').css('overflow', 'hidden');
+	// $('body').css('overflow', 'hidden');
 	$('#overlay').css('display', 'block');
 });
 $('.playbtn_sec').click(function (e){
@@ -35,8 +35,8 @@ $('.playbtn_fou').click(function (e){
 $('.playbtn_fiv').click(function (e){
 	var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
-	  var relativeY = (e.pageY) + 'px';
-	  $('.videos-item-hidden-fiv').css('top', relativeY);
+	  // var relativeY = (e.pageY) + 'px';
+	  // $('.videos-item-hidden-fiv').css('top', relativeY);
 	$('.videos-item-hidden-fiv').addClass('dis_vis');
 	$('#overlay').css('display', 'block');
 });

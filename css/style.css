@@ -22,7 +22,8 @@
   z-index: 9;
   display: none;
   -webkit-transition: 0.3s;
-  transition: 0.3s; }
+  transition: 0.3s;
+  overflow-y: visible; }
 
 * {
   -webkit-box-sizing: border-box;
