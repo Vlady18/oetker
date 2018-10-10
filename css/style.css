@@ -524,9 +524,6 @@ header {
   .section2 {
     padding-top: 150px; } }
 @media screen and (max-width: 485px) {
-  .myrow {
-    padding-top: 50%; }
-
   .changes {
     padding: 0; }
 
@@ -556,15 +553,7 @@ header {
     max-width: 100%; } }
 @media screen and (max-width: 415px) {
   .section2 {
-    padding-top: 100px; }
-
-  .myrow {
-    padding-top: 72%;
-    height: 100vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse; } }
+    padding-top: 100px; } }
 @media screen and (max-width: 380px) {
   .take {
     margin-top: 58%; }
