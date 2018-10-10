@@ -446,7 +446,7 @@ header {
             align-items: center;
     -ms-flex-item-align: center;
         align-self: center;
-    padding-top: 30%; }
+    padding-top: 40%; }
 
   .take {
     margin-top: 0 !important; }
@@ -486,19 +486,22 @@ header {
       margin-right: 0; }
 
   .changes {
-    width: 310px; }
+    width: 275px; }
     .changes span {
       font-size: 16px; }
 
   .checkbox + label:before {
     width: 38px;
-    height: 20px;
-    top: -11px; }
+    height: 17px;
+    top: -13px; }
+
+  .checkbox:checked + label:after {
+    left: 20px; }
 
   .checkbox + label:after {
-    width: 15px;
-    height: 15px;
-    top: -8px; } }
+    width: 14px;
+    height: 14px;
+    top: -11px; } }
 @media screen and (max-width: 430px) {
   .checkbox + label {
     padding: 0 0 0 41px; } }
@@ -544,10 +547,12 @@ header {
   .take {
     margin-bottom: 0%;
     margin-top: 30%;
-    text-align: center; }
+    text-align: center;
+    display: none;
+    /* style */ }
 
   .prod-top img {
-    max-width: 50%; }
+    max-width: 60%; }
 
   .changes {
     height: auto; }
@@ -571,6 +576,9 @@ header {
     top: 0;
     right: -87%; } }
 @media screen and (max-width: 440px) {
+  .changes {
+    width: 230px; }
+
   .take {
     margin-bottom: 0%;
     margin-top: 50%;
@@ -643,10 +651,16 @@ header {
   .prod-top img {
     max-width: 82%; } }
 @media screen and (max-width: 380px) {
+  .myrow {
+    padding-top: 65%; }
+
   .prod-top img {
-    max-width: 100%; }
+    max-width: 87%; }
 
   .changes {
-    width: 300px; } }
+    width: 230px; } }
+@media screen and (max-width: 330px) {
+  .myrow {
+    padding-top: 80%; } }
 
 /*# sourceMappingURL=style.css.map */
