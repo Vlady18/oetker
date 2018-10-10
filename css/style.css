@@ -280,7 +280,8 @@ header {
   .videos-item-hidden h4 {
     text-align: left; }
   .videos-item-hidden iframe {
-    z-index: 999; }
+    z-index: 999;
+    pointer-events: none; }
   .videos-item-hidden .video {
     min-height: 415px;
     height: 100%; }
