@@ -188,7 +188,7 @@ header {
   .section2 .super5 {
     margin: 0 auto;
     position: absolute;
-    max-width: 60%;
+    max-width: 80%;
     display: block;
     left: 50%;
     top: 0px;
@@ -373,6 +373,18 @@ header {
   .supervipechka .right {
     width: 70%; } }
 @media screen and (max-width: 992px) {
+  .skal {
+    left: -50%; }
+
+  .apple {
+    right: -95%; }
+
+  .egg {
+    left: -50%; }
+
+  .venc {
+    right: -130%; }
+
   .supervipechka {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -444,7 +456,18 @@ header {
     text-align: left;
     margin-top: 11%;
     font-size: 52px;
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+
+  .apple {
+    right: -120%; }
+
+  .venc {
+    right: -150%; }
+
+  .section2 {
+    padding-top: 320px; }
+    .section2 .super5 {
+      max-width: 100%; } }
 @media screen and (max-width: 576px) {
   .videos-item-hidden {
     width: 80%; }
@@ -460,6 +483,9 @@ header {
   .changes {
     width: 215px;
     height: auto; } }
+@media screen and (max-width: 530px) {
+  .section2 {
+    padding-top: 150px; } }
 @media screen and (max-width: 485px) {
   .myrow {
     padding-top: 50%; }
@@ -493,6 +519,9 @@ header {
   .prod-top img {
     max-width: 100%; } }
 @media screen and (max-width: 415px) {
+  .section2 {
+    padding-top: 100px; }
+
   .myrow {
     padding-top: 72%; } }
 @media screen and (max-width: 380px) {
