@@ -193,6 +193,10 @@ header {
   .venc img {
     max-width: 50%; }
 
+.videos-item-visible .shadows {
+  width: 340px;
+  height: 220px; }
+
 .section2 {
   background: url(../img/fon1.jpg) no-repeat center center/cover;
   padding-bottom: 50px;
@@ -232,7 +236,7 @@ header {
         margin-right: 0px; }
       .section2 .container .videos .videos-item-visible {
         position: relative;
-        margin-top: 60px;
+        margin-top: 70px;
         -webkit-transition: all 0.3s;
         transition: all 0.3s; }
         .section2 .container .videos .videos-item-visible:hover {
