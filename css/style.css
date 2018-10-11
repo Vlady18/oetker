@@ -279,7 +279,9 @@ header {
 .videos-item-hidden {
   overflow-y: scroll;
   width: 95%;
+  height: 95%;
   margin: 0 auto;
+  -webkit-overflow-scrolling: touch;
   position: fixed;
   display: none;
   z-index: 99;
@@ -299,7 +301,7 @@ header {
     z-index: 999;
     pointer-events: visible; }
   .videos-item-hidden .video {
-    min-height: 600px;
+    min-height: 500px;
     height: 100%; }
 
 .detail {
@@ -475,7 +477,7 @@ header {
             align-items: center;
     -ms-flex-item-align: center;
         align-self: center;
-    padding-top: 45%; }
+    padding-top: 42%; }
 
   .take {
     margin-top: 0 !important; }
