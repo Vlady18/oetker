@@ -38,9 +38,7 @@ section {
 header {
   height: 100vh;
   background: url(../img/bg111.jpg) no-repeat 50% 100%/cover;
-  margin: 0 auto; }
-
-.container {
+  margin: 0 auto;
   position: relative; }
 
 .top-line:before {
@@ -90,6 +88,11 @@ header {
   max-width: 90%; }
 
 .changes {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   padding: 5px 0px;
   width: 385px;
   text-align: center;
@@ -655,7 +658,7 @@ header {
     max-width: 100%; } }
 @media screen and (min-height: 667px) and (max-width: 500px) {
   .product {
-    margin-top: 100px; } }
+    margin-top: 80px; } }
 @media screen and (min-width: 1400px) {
   .changestop {
     margin-top: 60px; } }
