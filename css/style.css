@@ -86,7 +86,7 @@ header {
     font-size: 94px; }
 
 .prod-top img {
-  max-width: 94%; }
+  max-width: 90%; }
 
 .changes {
   padding: 5px 0px;
@@ -115,7 +115,7 @@ header {
     cursor: pointer; }
 
 .lab_dashed {
-  height: 35px;
+  height: 27px;
   border-bottom: 2px dashed #000; }
 
 .checkbox {
@@ -290,7 +290,8 @@ header {
   .videos-item-hidden h4 {
     text-align: left; }
   .videos-item-hidden iframe {
-    z-index: 999; }
+    z-index: 999;
+    pointer-events: visible; }
   .videos-item-hidden .video {
     min-height: 415px;
     height: 100%; }
@@ -302,6 +303,12 @@ header {
 
 .third {
   background: url(../img/bg33.png) no-repeat center center/cover; }
+
+.checkbox.checkbox1 + label {
+  top: 12px; }
+
+.changestop {
+  margin-top: -10px; }
 
 .supervipechka {
   display: -webkit-box;
@@ -388,6 +395,9 @@ header {
   .supervipechka .right {
     width: 70%; } }
 @media screen and (max-width: 992px) {
+  .changes {
+    margin-top: 0px; }
+
   .skal {
     left: -50%; }
 
@@ -459,7 +469,7 @@ header {
             align-items: center;
     -ms-flex-item-align: center;
         align-self: center;
-    padding-top: 40%; }
+    padding-top: 45%; }
 
   .take {
     margin-top: 0 !important; }
@@ -567,7 +577,7 @@ header {
     /* style */ }
 
   .prod-top img {
-    max-width: 60%; }
+    max-width: 52%; }
 
   .changes {
     height: auto; }
@@ -595,7 +605,7 @@ header {
     right: -87%; } }
 @media screen and (max-width: 440px) {
   .changes {
-    width: auto; }
+    width: 90%; }
 
   .take {
     margin-bottom: 0%;
@@ -673,7 +683,10 @@ header {
     max-width: 72%; } }
 @media screen and (max-width: 440px) {
   .prod-top img {
-    max-width: 82%; } }
+    max-width: 70%; }
+
+  .myrow {
+    padding-top: 65%; } }
 @media screen and (max-width: 380px) {
   .section2 .container .videos .videos-item p {
     font-size: 20px; }
@@ -682,10 +695,10 @@ header {
     margin-top: 70px; }
 
   .myrow {
-    padding-top: 63%; }
+    padding-top: 80%; }
 
   .prod-top img {
-    max-width: 87%; } }
+    max-width: 73%; } }
 @media screen and (max-width: 330px) {
   .myrow {
     padding-top: 80%; } }
