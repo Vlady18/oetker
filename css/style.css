@@ -40,19 +40,15 @@ header {
 .container {
   position: relative; }
 
-.top-line {
+.top-line:before {
   content: "";
-  width: 100%;
   position: absolute;
-  z-index: 9999;
+  top: 0;
   left: 0;
-  top: 0.2rem;
-  height: 0.4rem;
-  border-top: 0.15rem solid #fff;
-  border-bottom: 0.15rem solid #fff;
-  background: #24328b;
-  -webkit-box-shadow: 0 0 0 0.2rem #e30a17;
-          box-shadow: 0 0 0 0.2rem #e30a17; }
+  width: 100%;
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e30a17), color-stop(0.375rem, #e30a17), color-stop(0.375rem, #fff), color-stop(0.5625rem, #fff), color-stop(0.5625rem, #24328b), color-stop(0.75rem, #24328b), color-stop(0.75rem, #fff), color-stop(0.9375rem, #fff), color-stop(0.9375rem, #e30a17), color-stop(1.3125rem, #e30a17), color-stop(1.3125rem, transparent), to(transparent));
+  background: linear-gradient(#e30a17, #e30a17 0.375rem, #fff 0.375rem, #fff 0.5625rem, #24328b 0.5625rem, #24328b 0.75rem, #fff 0.75rem, #fff 0.9375rem, #e30a17 0.9375rem, #e30a17 1.3125rem, transparent 1.3125rem, transparent); }
 
 .my-cont {
   position: relative; }
