@@ -634,9 +634,18 @@ header {
 .dis_vis {
   display: block; }
 
-.popup h4 {
-  font-family: "NeueCyr-Medium";
-  margin-bottom: 15px; }
+.popup {
+  position: relative; }
+  .popup .exit-popup {
+    position: absolute;
+    right: 0px;
+    display: block;
+    top: -25px;
+    font-size: 30px;
+    cursor: pointer; }
+  .popup h4 {
+    font-family: "NeueCyr-Medium";
+    margin-bottom: 15px; }
 
 @media screen and (max-width: 992px) {
   .supervipechka .left img {
@@ -718,4 +727,5 @@ header {
 @media only screen and (min-width: 2000px) {
   .section2 {
     padding-top: 400px; } }
+
 /*# sourceMappingURL=style.css.map */

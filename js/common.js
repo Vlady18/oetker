@@ -50,4 +50,9 @@ $('#overlay').click(function(){
 	$('.videos-item-hidden').removeClass('dis_vis');
 	$('body').css('overflow', 'auto');
 });
+$('.exit-popup').click(function(){
+	$('#overlay').css('display', 'none');
+	$('.videos-item-hidden').removeClass('dis_vis');
+	$('body').css('overflow', 'auto');
+});
 })
