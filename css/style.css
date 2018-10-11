@@ -70,12 +70,14 @@ header {
   margin-bottom: 5px;
   color: #ffffff;
   font-family: "VeryBerryPro-Regular";
-  font-size: 88px;
+  font-size: 84px;
   font-weight: 400;
   line-height: 70px;
-  letter-spacing: 0.88px; }
+  letter-spacing: 0.88px;
+  -webkit-transform: rotate(-2deg);
+          transform: rotate(-2deg); }
   .take span {
-    font-size: 118px; }
+    font-size: 94px; }
 
 .prod-top img {
   max-width: 94%; }
