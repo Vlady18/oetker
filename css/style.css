@@ -2,6 +2,9 @@
   font-family: "VeryBerryPro-Regular";
   src: url("../fonts/VeryBerryPro-Regular.otf") format("opentype"); }
 @font-face {
+  font-family: "Lumberjack";
+  src: url("../fonts/Lumberjack.otf") format("opentype"); }
+@font-face {
   font-family: "NeueCyr-Bold";
   src: url("../fonts/HelveticaNeueCyr-Bold.eot") format("eot"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff"), url("../fonts/HelveticaNeueCyr-Bold.ttf") format("truetype"); }
 @font-face {
@@ -69,14 +72,17 @@ header {
   margin-top: calc(50vh - 270px);
   margin-bottom: 5px;
   color: #ffffff;
-  font-family: "VeryBerryPro-Regular";
-  font-size: 84px;
+  font-family: "Lumberjack";
+  font-size: 88px;
   font-weight: 400;
   line-height: 70px;
   letter-spacing: 0.88px;
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg); }
-  .take span {
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg); }
+
+.product {
+  padding-top: 45px; }
+  .product span {
     font-size: 94px; }
 
 .prod-top img {
@@ -87,10 +93,8 @@ header {
   width: 385px;
   text-align: center;
   width: 430px;
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
-  background-image: -webkit-gradient(linear, left top, right top, from(orange), to(#98FB98));
-  background-image: linear-gradient(to right, orange, #98FB98); }
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto; }
   .changes span {
     color: #000000;
     font-family: "NeueCyr-Medium";
@@ -323,6 +327,10 @@ header {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+    .supervipechka .right h3 {
+      font-family: "Lumberjack";
+      color: #ffdb27;
+      font-size: 70px; }
     .supervipechka .right .easygg {
       max-width: 452px;
       max-height: 97px;
@@ -535,14 +543,12 @@ header {
   .egg {
     display: none; }
 
-  .container {
-    height: 100%; }
-
   .videos-item-hidden {
     width: 80%; }
 
   .product {
-    text-align: center; }
+    text-align: center;
+    padding-top: 0px; }
 
   .changes {
     margin: 0 auto;
@@ -567,6 +573,9 @@ header {
   .section2 {
     padding-top: 150px; } }
 @media screen and (max-width: 485px) {
+  .supervipechka .right h3 {
+    font-size: 50px; }
+
   .changes {
     padding: 0; }
 
@@ -602,6 +611,9 @@ header {
   .prod-top img {
     max-width: 76%; } }
 @media screen and (max-width: 350px) {
+  .supervipechka .right h3 {
+    font-size: 40px; }
+
   .take {
     margin-top: 60%; } }
 .dis_vis {
