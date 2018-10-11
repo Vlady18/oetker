@@ -278,7 +278,6 @@ header {
   -webkit-overflow-scrolling: touch;
   position: fixed;
   display: none;
-  height: 90vh;
   z-index: 99;
   top: 10%;
   left: 50%;
@@ -297,7 +296,7 @@ header {
     z-index: 999;
     pointer-events: visible; }
   .videos-item-hidden .video {
-    min-height: 415px;
+    min-height: 600px;
     height: 100%; }
 
 .detail {
