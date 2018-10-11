@@ -116,7 +116,10 @@ header {
     cursor: pointer; }
 
 .changes2 {
-  margin-top: 20px; }
+  margin-top: 20px;
+  position: static !important;
+  -webkit-transform: translate(0) !important;
+          transform: translate(0) !important; }
 
 .lab_dashed {
   height: 27px;
@@ -275,6 +278,8 @@ header {
 
 .videos-item-hidden {
   overflow-y: scroll;
+  width: 95%;
+  margin: 0 auto;
   -webkit-overflow-scrolling: touch;
   position: fixed;
   display: none;
@@ -283,7 +288,6 @@ header {
   left: 50%;
   -webkit-transform: translate(-50%, -50px);
           transform: translate(-50%, -50px);
-  width: 100%;
   text-align: center;
   margin: 0 auto;
   padding: 20px;
@@ -547,7 +551,7 @@ header {
     left: 19px; } }
 @media screen and (max-width: 576px) {
   .videos-item-hidden .video {
-    min-height: inherit; }
+    min-height: 250px; }
 
   .apple {
     display: none; }
@@ -589,7 +593,10 @@ header {
     display: none; } }
 @media screen and (max-width: 530px) {
   .section2 {
-    padding-top: 150px; } }
+    padding-top: 150px; }
+
+  .videos-item-hidden .video {
+    min-height: 200px; } }
 @media screen and (max-width: 485px) {
   .supervipechka .right h3 {
     font-size: 50px; }
@@ -623,6 +630,9 @@ header {
   .section2 {
     padding-top: 100px; } }
 @media screen and (max-width: 380px) {
+  .popup h4 {
+    font-size: 1.2rem; }
+
   .take {
     margin-top: 58%; }
 
