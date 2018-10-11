@@ -641,6 +641,9 @@ header {
 @media screen and (max-width: 480px) {
   .supervipechka .left img {
     max-width: 100%; } }
+@media screen and (min-height: 667px) and (max-width: 500px) {
+  .product {
+    margin-top: 100px; } }
 @media screen and (min-width: 1400px) {
   .changestop {
     margin-top: 60px; } }
@@ -712,5 +715,4 @@ header {
 @media only screen and (min-width: 2000px) {
   .section2 {
     padding-top: 400px; } }
-
 /*# sourceMappingURL=style.css.map */
