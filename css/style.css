@@ -41,6 +41,9 @@ header {
   margin: 0 auto;
   position: relative; }
 
+.container {
+  position: relative; }
+
 .top-line:before {
   content: "";
   position: absolute;
