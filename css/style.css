@@ -63,7 +63,9 @@ header {
   left: 20px; }
   .logo-brand a img {
     max-width: 100%;
-    width: 100px; }
+    width: 116px;
+    max-width: 116px;
+    max-height: 74px; }
 
 .take {
   text-align: left;
@@ -83,13 +85,14 @@ header {
   max-width: 94%; }
 
 .changes {
-  background-color: #ffdb27;
   padding: 5px 0px;
   width: 385px;
   text-align: center;
   width: 430px;
   -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg); }
+          transform: rotate(-2deg);
+  background-image: -webkit-gradient(linear, left top, right top, from(orange), to(#98FB98));
+  background-image: linear-gradient(to right, orange, #98FB98); }
   .changes span {
     color: #000000;
     font-family: "NeueCyr-Medium";
@@ -99,7 +102,7 @@ header {
   .changes label {
     color: #000000;
     font-family: "NeueCyr-Medium";
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 39.98px;
     margin: 0;
@@ -162,7 +165,7 @@ header {
   bottom: -140px;
   left: -30%; }
   .egg img {
-    max-width: 50%; }
+    max-width: 60%; }
 
 .apple {
   position: absolute;
@@ -487,10 +490,8 @@ header {
       font-size: 14px;
       margin-right: 0; }
 
-  .changes {
-    width: 275px; }
-    .changes span {
-      font-size: 16px; }
+  .changes span {
+    font-size: 16px; }
 
   .checkbox + label:before {
     width: 38px;
@@ -582,7 +583,7 @@ header {
     right: -87%; } }
 @media screen and (max-width: 440px) {
   .changes {
-    width: 230px; }
+    width: auto; }
 
   .take {
     margin-bottom: 0%;
@@ -669,10 +670,7 @@ header {
     padding-top: 63%; }
 
   .prod-top img {
-    max-width: 87%; }
-
-  .changes {
-    width: 230px; } }
+    max-width: 87%; } }
 @media screen and (max-width: 330px) {
   .myrow {
     padding-top: 80%; } }
@@ -680,5 +678,11 @@ header {
   .section2 {
     background: url(../img/bg2mob.jpg);
     background-size: 100% 50%; } }
+@media only screen and (min-width: 1600px) {
+  .section2 {
+    padding-top: 350px; } }
+@media only screen and (min-width: 2000px) {
+  .section2 {
+    padding-top: 400px; } }
 
 /*# sourceMappingURL=style.css.map */
