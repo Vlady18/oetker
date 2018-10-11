@@ -76,9 +76,14 @@ header {
   font-size: 88px;
   font-weight: 400;
   line-height: 70px;
-  letter-spacing: 0.88px; }
-  .take span {
-    font-size: 118px; }
+  letter-spacing: 0.88px;
+  -webkit-transform: rotate(-9deg);
+          transform: rotate(-9deg); }
+
+.product {
+  padding-top: 45px; }
+  .product span {
+    font-size: 94px; }
 
 .prod-top img {
   max-width: 94%; }
@@ -88,17 +93,18 @@ header {
   width: 385px;
   text-align: center;
   width: 430px;
-  -webkit-transform: rotate(-2deg);
-          transform: rotate(-2deg);
-  background-image: -webkit-gradient(linear, left top, right top, from(orange), to(#98FB98));
-  background-image: linear-gradient(to right, orange, #98FB98); }
-  .changes span {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto; }
+
+.changes2 {
+  margin-top: 20px; }
+  .changes2 span {
     color: #000000;
     font-family: "NeueCyr-Medium";
     font-size: 21px;
     font-weight: 500;
     line-height: 39.98px; }
-  .changes label {
+  .changes2 label {
     color: #000000;
     font-family: "NeueCyr-Medium";
     font-size: 16px;
@@ -284,8 +290,7 @@ header {
   .videos-item-hidden h4 {
     text-align: left; }
   .videos-item-hidden iframe {
-    z-index: 999;
-    pointer-events: none; }
+    z-index: 999; }
   .videos-item-hidden .video {
     min-height: 415px;
     height: 100%; }
@@ -485,6 +490,9 @@ header {
   .lab_dashed {
     height: 23px; }
 
+  .changes2 {
+    margin-top: 10px !important; }
+
   .changes {
     height: 40px;
     margin-top: -10px; }
@@ -540,14 +548,12 @@ header {
   .egg {
     display: none; }
 
-  .container {
-    height: 100%; }
-
   .videos-item-hidden {
     width: 80%; }
 
   .product {
-    text-align: center; }
+    text-align: center;
+    padding-top: 0px; }
 
   .changes {
     margin: 0 auto;

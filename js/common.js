@@ -1,5 +1,5 @@
 $(function(){
-$('.videos-item-visible').click(function (e){
+$('#open-1').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY ) + 'px';
@@ -9,7 +9,7 @@ $('.videos-item-visible').click(function (e){
 	$('#overlay').css('display', 'block');
 	// $('.videos-item-hidden-fir').css('overflow-y', 'scroll');
 });
-$('.videos-item-visible').click(function (e){
+$('#open-2').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
@@ -18,7 +18,7 @@ $('.videos-item-visible').click(function (e){
 	$('#overlay').css('display', 'block');
 	$('body').css('overflow', 'hidden');
 });
-$('.videos-item-visible').click(function (e){
+$('#open-3').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
@@ -27,7 +27,7 @@ $('.videos-item-visible').click(function (e){
 	$('#overlay').css('display', 'block');
 	$('body').css('overflow', 'hidden');
 });
-$('.videos-item-visible').click(function (e){
+$('#open-4').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
@@ -36,7 +36,7 @@ $('.videos-item-visible').click(function (e){
 	$('#overlay').css('display', 'block');
 	$('body').css('overflow', 'hidden');
 });
-$('.videos-item-visible').click(function (e){
+$('#open-5').click(function (e){
 	// var offset = $(this).offset();
 	  // var relativeX = (e.pageX - offset.left);
 	  // var relativeY = (e.pageY) + 'px';
