@@ -58,4 +58,11 @@ $('.exit-popup').click(function(){
 $('.checkbox + label').click(function(e){
 	document.location.href="http://oetker.vitalievich.ru";
 });
+$('.videos-item-hidden').addClass('dis_vis');
+let vid_width = $('.video').width();
+console.log(vid_width);
+let vid_height = vid_width*9/16;
+console.log(vid_height);
+$('.video').css('height', vid_height);
+$('.videos-item-hidden').removeClass('dis_vis');
 })
