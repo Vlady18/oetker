@@ -308,7 +308,7 @@ header {
     z-index: 999;
     pointer-events: visible; }
   .videos-item-hidden .video {
-    min-height: 500px;
+    min-height: 650px;
     height: 100%; }
 
 .detail {
@@ -559,7 +559,7 @@ header {
     left: 19px; } }
 @media screen and (max-width: 576px) {
   .videos-item-hidden .video {
-    min-height: 250px; }
+    min-height: 300px; }
 
   .apple {
     display: none; }
@@ -604,7 +604,7 @@ header {
     padding-top: 150px; }
 
   .videos-item-hidden .video {
-    min-height: 200px; } }
+    min-height: 250px; } }
 @media screen and (max-width: 485px) {
   .supervipechka .right h3 {
     font-size: 50px; }

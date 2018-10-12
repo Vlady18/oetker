@@ -55,7 +55,7 @@ $('.exit-popup').click(function(){
 	$('.videos-item-hidden').removeClass('dis_vis');
 	$('body').css('overflow', 'auto');
 });
-$('.checkbox + label').click(function(e){
+$('.changes label').click(function(e){
 	document.location.href="http://oetker.vitalievich.ru";
 });
 })
