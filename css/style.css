@@ -286,7 +286,6 @@ header {
 .videos-item-hidden {
   overflow-y: scroll;
   width: 95%;
-  height: 95%;
   margin: 0 auto;
   -webkit-overflow-scrolling: touch;
   position: fixed;
@@ -309,6 +308,7 @@ header {
     pointer-events: visible; }
   .videos-item-hidden .video {
     min-height: 650px;
+    max-height: 840px;
     height: 100%; }
 
 .detail {
